@@ -1,0 +1,77 @@
+/*Estilo padrão das páginas para tamanhos específicos de telas*/
+
+/*telas de até 900px*/
+@media (max-width: 900px) {
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;  
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+    #page-create-point .items-grid {
+        display: grid;
+        grid-template-columns: 1fr 
+    }
+
+    #page-create-point form button {
+        width: 200px;
+        height: 56px;
+        background-color: var(--primary-color);
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin-left: 50%;
+        align-items: center;
+        display: flex;
+        transform: translateX(-50%);
+        transition: backgroud-color 400ms;
+        /*transition é o tempo de transição para o hover*/
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    #page-search-results .cards img {
+        height: 250px;
+    }
+}
+
+/*ajustar imagens para casos em que terão largura maior que 1700px*/
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+/*ajustar imagens para casos em que terão altura menor que 760px*/
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 200px;
+    }
+}

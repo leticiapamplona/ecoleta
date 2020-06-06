@@ -1,0 +1,55 @@
+<!-- Arquivo para centralizar a estrutura html padrão que se repete em todas as páginas do site -->
+
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <!--
+        UTF-8 serve para permitir caracteres diferentes no texto
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        O comando acima serve para ajustar o site a diferentes tamanhos de telas
+    -->
+
+    <!-- os blocks substituem as linhas que estão entre eles com parte de outro código -->
+
+    <!-- se o arquivo tiver um título, ele substitui o título padrão, senão pula o block title -->
+    {% block title %}
+        <title>Ecoleta</title>
+    {% endblock title %}
+
+    <title>Ecoleta</title>
+
+    <!-- trazer fonte do google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- relacionar os estilos dos arquivos css com as estruturas dos arquivos html -->
+    <link rel="stylesheet" href="/styles/main.css">
+
+    
+    {% block styles %}
+    {% endblock styles %}
+
+
+    <link rel="stylesheet" href="/styles/responsive.css">
+
+</head>
+    
+<body>
+
+    <div id="{{ pageId }}">
+
+        {% block content %}
+        {% endblock content %}
+        
+    </div>
+
+    {% block modal %}
+    {% endblock modal %}
+
+    {% block scripts %}
+    {% endblock scripts %}
+
+</body>  
+</html>
