@@ -24,3 +24,6 @@ Marketplace de coleta de resíduos que auxilia o usuário a encontrar pontos de 
 ### Search
 ![alt text](https://github.com/leticiapamplona/ecoleta/blob/master/media/img13.png)
 ![alt text](https://github.com/leticiapamplona/ecoleta/blob/master/media/img14.png)
+
+## Licença:memo:
+Este projeto está sob licença do [MIT](https://github.com/StefanoSaffran/ecoleta/blob/master/LICENSE).
