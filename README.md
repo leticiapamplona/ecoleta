@@ -25,5 +25,5 @@ Waste collection marketplace that helps the user to find collection points. In t
 ![alt text](https://github.com/leticiapamplona/ecoleta/blob/master/media/img13.png)
 ![alt text](https://github.com/leticiapamplona/ecoleta/blob/master/media/img14.png)
 
-## Licença:memo:
+## License :memo:
 This project is under license from [MIT](https://github.com/StefanoSaffran/ecoleta/blob/master/LICENSE).
