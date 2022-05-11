@@ -1,10 +1,10 @@
 ![](https://github.com/leticiapamplona/ecoleta/blob/master/public/assets/logo.svg)
 
 ## Next Level Week :rocket:
-Durante a primeira semana de junho de 2020, a Rocketseat disponibilizou um curso para desenvolver uma aplicação completa do zero. No projeto de nível Starter, dediquei 5 dias para o projeto Ecoleta. Para construir a aplicação utilizamos conhecimentos de HTML, CSS, Javascript, Node.js e SQLite.
+During the first week of June 2020, Rocketseat provided a course to develop a complete application from scratch. In the Starter level project, I dedicated 5 days to the Ecoleta project. To build the application we used knowledge of HTML, CSS, Javascript, Node.js and SQLite.
 
 ## About :memo:
-Marketplace de coleta de resíduos que auxilia o usuário a encontrar pontos de coleta. Nesta aplicação o usuário pode cadastrar novos pontos de coleta, bem como pesquisar, filtrando por cidade, pontos de coleta já cadastrados. 
+Waste collection marketplace that helps the user to find collection points. In this application the user can register new collection points, as well as search, filtering by city, for already registered collection points. 
 
 ## Technologies and Frameworks :computer:
 * JavaScript
@@ -13,7 +13,7 @@ Marketplace de coleta de resíduos que auxilia o usuário a encontrar pontos de 
 * SQLite
 * Nunjucks
 
-## Site Completo :eyes:
+## Website :eyes:
 
 ### Home page
 ![alt text](https://github.com/leticiapamplona/ecoleta/blob/master/media/img1.png)
@@ -26,4 +26,4 @@ Marketplace de coleta de resíduos que auxilia o usuário a encontrar pontos de 
 ![alt text](https://github.com/leticiapamplona/ecoleta/blob/master/media/img14.png)
 
 ## Licença:memo:
-Este projeto está sob licença do [MIT](https://github.com/StefanoSaffran/ecoleta/blob/master/LICENSE).
+This project is under license from [MIT](https://github.com/StefanoSaffran/ecoleta/blob/master/LICENSE).
